@@ -944,7 +944,7 @@ fn get_api_server_(api: String, custom: String) -> String {
             return format!("http://{}", s);
         }
     }
-    "https://rustdesk-api.noc-lucky.eu.org".to_owned()
+    "https://rustdesk-web.noc-lucky.eu.org".to_owned()
 }
 
 pub fn get_audit_server(api: String, custom: String, typ: String) -> String {
